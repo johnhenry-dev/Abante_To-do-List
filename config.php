@@ -35,3 +35,19 @@ function CreateTodo ($conn, $todo)
 	}
 	return $dta;
 }
+
+function DeleteTodo ($conn, $tid)
+{
+	$dta ="";
+	if (!empty($tid)) {
+		$sql = ' DELETE FROM todolist WHERE tid =' . $tid;
+
+		if (mysqli_query($conn, $sql)){
+			$dta = "Record deleted successfully";
+		}
+		else {
+			$dta = "Error deleting record: " . mysqli_error($conn);
+		}
+	}
+	return $dta;
+}
