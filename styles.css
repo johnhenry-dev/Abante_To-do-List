@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: palegoldenrod;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.box {
+	width: 80%;
+	margin: 0 auto !important;
+	background-color: rgb(243, 212, 242);
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+	background-color: rgb(62, 63, 62);
+	padding: 25px 0 10px 0;
+}
+
+.header h2 {
+	color: white;
+	padding: 0 0 25px 0;
+	text-transform: uppercase;
+}
+
+.header .btn {
+	padding: 7px;
+}
+
+#myInput {
+	line-height: 30px;
+	width: 300px;
+	padding: 0 0 0 10px;
+}
+
+.list {
+	line-style-type: none;
+	min-height: 400px;
+}
+
+.list li {
+	padding: 10px 10px;
+	background-color: burlywood;
+	border-bottom: 1px solid black;
+}
+
+.list li:hover {
+	background-color: blanchedalmond;
+}
+
+.list a.delBtn {
+	text-decoration: none;
+	color: white;
+	background: blueviolet;
+	float: right;
+	padding: 2px 5px;
+}
